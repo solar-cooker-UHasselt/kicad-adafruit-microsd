@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "ad036549-b5e8-4245-a1bf-e060c1b66544")
 	(paper "A4")
+	(title_block
+		(title "microSD")
+		(date "2024-03-06")
+	)
 	(lib_symbols
 		(symbol "microSD-eagle-import:+3V3"
 			(power)
