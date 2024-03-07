@@ -52,7 +52,10 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "starved_thermal|162850000|108900000|2115dccf-a8c5-4364-b25b-22fe2614500f|709b4386-ce22-4090-a3a9-3cdf2a637929|F.Cu",
+        "starved_thermal|162850000|111440000|c2aa35fd-5250-42e0-9b48-2384123edbe1|4444a71a-e417-43f5-b284-ea4c727c1606|B.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -478,10 +481,10 @@
     "annotate_start_num": 0,
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": ";",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""
@@ -497,22 +500,22 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -521,15 +524,57 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Supplier",
+          "name": "Supplier",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "SPN",
+          "name": "SPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Component package type",
+          "name": "Component package type",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
           "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

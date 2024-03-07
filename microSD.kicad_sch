@@ -797,163 +797,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_Small_0_1"
-				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 0.6858)
-					(end 1.524 0.3048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -2665,7 +2508,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 156.21 82.55)
+			(xy 148.59 82.55) (xy 156.21 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -3066,7 +2909,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 149.86 82.55 90)
+		(at 148.59 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3074,7 +2917,7 @@
 		(dnp no)
 		(uuid "2cffa287-633d-4dc4-80d9-0bb0802c7c64")
 		(property "Reference" "#PWR05"
-			(at 153.67 82.55 0)
+			(at 152.4 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +2926,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 147.066 82.55 90)
+			(at 145.796 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,7 +2935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 82.55 0)
+			(at 148.59 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +2944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 82.55 0)
+			(at 148.59 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +2953,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 149.86 82.55 0)
+			(at 148.59 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3189,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PINHD-1X8BIG"
+		(property "Value" "~"
 			(at 196.85 138.43 0)
 			(effects
 				(font
@@ -3365,7 +3208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 190.5 123.19 0)
 			(effects
 				(font
@@ -3374,7 +3217,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
+		(property "Description" "CONN HEADER VERT 8POS 2.54MM"
+			(at 190.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec Inc."
+			(at 190.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TSW-108-23-G-S"
+			(at 190.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 190.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "612-TSW-108-23-G-S-ND"
+			(at 190.5 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component package type" "/"
 			(at 190.5 123.19 0)
 			(effects
 				(font
@@ -3649,7 +3537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 133.35 77.47 0)
 			(effects
 				(font
@@ -3658,7 +3546,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LED RED CLEAR 0805 SMD"
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150080SS75000"
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "732-4985-1-ND"
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component package type" "0805"
 			(at 133.35 77.47 0)
 			(effects
 				(font
@@ -3683,7 +3616,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
+		(lib_id "Device:C_Small")
 		(at 95.25 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3700,7 +3633,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "10uF/10V"
+		(property "Value" "10uF"
 			(at 97.282 117.602 0)
 			(effects
 				(font
@@ -3709,7 +3642,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 95.25 116.84 0)
 			(effects
 				(font
@@ -3718,7 +3651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 95.25 116.84 0)
 			(effects
 				(font
@@ -3727,7 +3660,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" "10 µF ±10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "/"
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "/"
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Eurocircuits"
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "GPC0805106"
+			(at 95.25 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component package type" "0805"
 			(at 95.25 116.84 0)
 			(effects
 				(font
@@ -4118,7 +4096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.3 116.84 0)
 			(effects
 				(font
@@ -4127,7 +4105,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0805 (2012 Metric)"
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "/"
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "/"
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Eurocircuits"
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "GPC0805104-100"
+			(at 114.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component package type" "0805"
 			(at 114.3 116.84 0)
 			(effects
 				(font
@@ -4159,22 +4182,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a26719f0-eb91-4e80-aad4-a793ffde22b1")
 		(property "Reference" "J1"
-			(at 179.705 63.5 0)
+			(at 179.07 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Micro_SD_Card_Det2"
+		(property "Value" "~"
 			(at 179.705 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "external_footprints:GCT_MEM2061-01-188-00-A_REVA"
@@ -4195,7 +4218,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Micro SD Card Socket with two card detection pins"
+		(property "Description" "MICRO SD PUSH PUSH, CLOSED, SMT,"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MEM2061-01-188-00-A"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "2073-MEM2061-01-188-00-ACT-ND"
+			(at 179.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component package type" "/"
 			(at 179.07 85.09 0)
 			(effects
 				(font
@@ -4396,7 +4464,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LP298XS"
+		(property "Value" "LP2985A"
 			(at 143.51 121.92 0)
 			(effects
 				(font
@@ -4423,7 +4491,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC REG LINEAR 3.3V 150MA SOT23-5"
+			(at 143.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 143.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LP2985A-33DBVR"
+			(at 143.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 143.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "296-18479-1-ND"
+			(at 143.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component package type" "SOT-23-5"
 			(at 143.51 121.92 0)
 			(effects
 				(font
@@ -4473,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "74HC4050D"
 			(at 99.06 73.66 0)
 			(effects
 				(font
@@ -4499,7 +4612,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC BUFFER NON-INVERT 6V 16SOIC"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Toshiba Semiconductor and Storage"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74HC4050D"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DigiKey"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "74HC4050DCT-ND"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component package type" "16-SOIC"
 			(at 93.98 95.25 0)
 			(effects
 				(font
@@ -4583,7 +4741,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "1k"
 			(at 143.256 80.264 90)
 			(effects
 				(font
@@ -4601,7 +4759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 144.78 77.47 0)
 			(effects
 				(font
@@ -4610,8 +4768,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 125 mW, 0805 [2012 Metric], Thick Film, General Purpose"
 			(at 144.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "/"
+			(at 144.78 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "/"
+			(at 144.78 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Eurocircuits"
+			(at 144.78 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "GPR08051K"
+			(at 144.78 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Component package type" "/"
+			(at 144.78 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
