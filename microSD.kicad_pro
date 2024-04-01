@@ -52,10 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "starved_thermal|162850000|108900000|2115dccf-a8c5-4364-b25b-22fe2614500f|709b4386-ce22-4090-a3a9-3cdf2a637929|F.Cu",
-        "starved_thermal|162850000|111440000|c2aa35fd-5250-42e0-9b48-2384123edbe1|4444a71a-e417-43f5-b284-ea4c727c1606|B.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -119,7 +116,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
