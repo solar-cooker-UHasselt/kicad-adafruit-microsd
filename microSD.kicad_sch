@@ -4819,7 +4819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "/"
+		(property "Component package type" "R_0805"
 			(at 144.78 77.47 90)
 			(effects
 				(font
