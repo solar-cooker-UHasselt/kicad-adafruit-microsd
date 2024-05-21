@@ -498,7 +498,7 @@
 			)
 		)
 	)
-	(footprint "external_footprints:GCT_MEM2061-01-188-00-A_REVA"
+	(footprint "external_footprints:MEM2061-01-188-00-A"
 		(layer "F.Cu")
 		(uuid "33d1fee6-d6ad-43ef-9dd8-ef4ed04f4d31")
 		(at 140.825 105.125 -90)
@@ -506,7 +506,7 @@
 			(at -2.42133 -9.32106 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d270b5ba-7131-40b1-b463-d9a8f2bc3448")
+			(uuid "59d4a5e8-4837-4170-9b08-1195795fbb86")
 			(effects
 				(font
 					(size 1.600866 1.600866)
@@ -517,7 +517,7 @@
 		(property "Value" "microSD"
 			(at 20.95407 9.036605 90)
 			(layer "F.Fab")
-			(uuid "d6b9b99b-486a-441b-82de-94b3ac60c5ac")
+			(uuid "70e7eb70-810a-4216-a1e2-cc7aba2d71ca")
 			(effects
 				(font
 					(size 1.600465 1.600465)
@@ -525,12 +525,12 @@
 				)
 			)
 		)
-		(property "Footprint" "external_footprints:GCT_MEM2061-01-188-00-A_REVA"
+		(property "Footprint" "external_footprints:MEM2061-01-188-00-A"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0547d88e-e279-4d10-ad61-8ce6e14048e7")
+			(uuid "6ad56244-9b33-4df3-86ff-f22a6d2f81b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -542,7 +542,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc42b651-5d93-4153-b155-7ea491c89147")
+			(uuid "e0149875-dbcc-4ccd-88f9-85dc289c9485")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -554,7 +554,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34b75fa9-f609-4d33-ad16-862c27c84eb1")
+			(uuid "027a5a22-e14b-4afc-bf24-9667b651c025")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -639,7 +639,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cfddaaa2-6610-4fbd-acf9-b81c11b212ff")
+			(uuid "e6012dca-7758-466e-901d-0241d7a7ae18")
 		)
 		(fp_line
 			(start -7 7.725)
@@ -649,7 +649,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bc51a018-f086-41cf-b432-6e5d26a8d19a")
+			(uuid "dec7d264-a6a8-41e7-84c4-3092364521f9")
 		)
 		(fp_line
 			(start 7 5.55)
@@ -659,7 +659,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a35f42af-ee2f-4c12-9624-5646ecdbade5")
+			(uuid "9aecfe5a-6184-4065-8230-5194d2eb4320")
 		)
 		(fp_line
 			(start -7 4.55)
@@ -669,7 +669,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "130c79a0-9b2c-40e3-a3f1-e63a0e28c7f1")
+			(uuid "20d0f8af-825e-46d4-8a1c-574b66948c26")
 		)
 		(fp_line
 			(start -7 -7.725)
@@ -679,7 +679,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ef491c76-c300-48bd-9325-d8ef3c3e43ef")
+			(uuid "765ce632-e75c-425a-b7ad-00f3fa7206b9")
 		)
 		(fp_line
 			(start -3.81 -7.725)
@@ -689,7 +689,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "36d233e7-8833-47ad-9b5f-a43c59b1295b")
+			(uuid "084f2c67-b22f-4280-b996-05a215aa583f")
 		)
 		(fp_line
 			(start 1.9812 -7.725)
@@ -699,7 +699,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "58032d92-6ef0-4071-af2d-485470fc12a8")
+			(uuid "f8a5432a-4962-47a6-bf15-67bbbd9bb8de")
 		)
 		(fp_circle
 			(center 3 3.25)
@@ -710,7 +710,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "3d63835a-b1ca-42b0-90c7-7c67d28c8ccf")
+			(uuid "725704b8-43cc-4c7f-b666-58a882047204")
 		)
 		(fp_line
 			(start -7.5 8)
@@ -720,7 +720,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "79480ab0-7364-47bb-9cf1-32bda656a2ce")
+			(uuid "bb7b0e7d-8843-4662-91f8-b5e1e4ae025a")
 		)
 		(fp_line
 			(start 7.75 8)
@@ -730,7 +730,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7dbe4c79-f023-41a7-a621-c101051e75bd")
+			(uuid "63ea8932-2f3a-453c-91c4-4c02e05c568f")
 		)
 		(fp_line
 			(start -7.5 -8.25)
@@ -740,7 +740,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d393bfb5-4532-472d-9f1b-60419417c37e")
+			(uuid "a320cf31-e579-42d0-9148-05c6af56570f")
 		)
 		(fp_line
 			(start 7.75 -8.25)
@@ -750,7 +750,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c88b8f63-572e-415a-8c62-8108fdad2bc1")
+			(uuid "9b24871a-966c-42fa-8685-411c4ad8da99")
 		)
 		(fp_line
 			(start -7 7.725)
@@ -760,7 +760,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "192807af-1c57-4179-9473-452b8c47479d")
+			(uuid "eea1235c-ddc6-4c38-a6ac-c7310814c067")
 		)
 		(fp_line
 			(start -7 7.725)
@@ -770,7 +770,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "429103d4-9e16-42f9-b697-9280efbd1e51")
+			(uuid "da30eb2e-a816-42ab-9a16-b12047855799")
 		)
 		(fp_line
 			(start 7 7.725)
@@ -780,7 +780,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6dee8e0f-d689-4091-80d0-cb08e761576d")
+			(uuid "efca2efd-9ec1-4351-bb61-4881031d7916")
 		)
 		(fp_line
 			(start 0 0.5)
@@ -790,7 +790,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3284347c-944d-4afe-b015-d74e13e2841b")
+			(uuid "e718905d-4dea-4ce6-9cd3-d4880228552b")
 		)
 		(fp_line
 			(start -0.5 0)
@@ -800,7 +800,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bfdd6c1a-a704-436c-9512-202fe5956cdb")
+			(uuid "7665b11a-bdb0-48f4-996b-f7af4667b2c6")
 		)
 		(fp_line
 			(start -7 -7.725)
@@ -810,14 +810,14 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "aaa0eebb-c73d-40de-ac63-864e0ca258cd")
+			(uuid "3c34d8bc-3539-4778-9325-20e8b17924a1")
 		)
 		(pad "" smd rect
 			(at 6.6 6.825 270)
 			(size 1.4 1.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(solder_mask_margin 0.102)
-			(uuid "3331af14-4122-477f-ab5c-610a0940c0d7")
+			(uuid "5c588c0a-f47b-4105-979f-b18307dea9c7")
 		)
 		(pad "1" smd rect
 			(at 1.94 3.225 270)
@@ -827,7 +827,7 @@
 			(pinfunction "DAT2")
 			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
-			(uuid "8dfb45ee-4f86-4ca0-bac1-e539b6b360dd")
+			(uuid "aea04b7b-a7cf-46e7-86b5-75132a115b41")
 		)
 		(pad "2" smd rect
 			(at 0.84 2.825 270)
@@ -837,7 +837,7 @@
 			(pinfunction "DAT3/CD")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "5fa8dcab-f8d4-4354-b393-40764d920002")
+			(uuid "459ff9ab-cb93-4c9a-9041-23a5038e3a69")
 		)
 		(pad "3" smd rect
 			(at -0.26 3.225 270)
@@ -847,7 +847,7 @@
 			(pinfunction "CMD")
 			(pintype "input")
 			(solder_mask_margin 0.102)
-			(uuid "93692a2a-e5b0-4152-ace5-b5135a6e9331")
+			(uuid "5000bd6d-5704-4dc0-8de6-8fc2815926cd")
 		)
 		(pad "4" smd rect
 			(at -1.36 3.425 270)
@@ -857,7 +857,7 @@
 			(pinfunction "VDD")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "0a075b12-a931-4d7c-a559-7be4e3e942c2")
+			(uuid "e24338ad-3c9f-492a-ad82-5d0cc0e18a9a")
 		)
 		(pad "5" smd rect
 			(at -2.46 3.225 270)
@@ -867,7 +867,7 @@
 			(pinfunction "CLK")
 			(pintype "input")
 			(solder_mask_margin 0.102)
-			(uuid "b4a9334b-de51-4341-8b78-d32554f532bc")
+			(uuid "f9ad5f15-e244-43d7-a3ea-a30fb17be0c7")
 		)
 		(pad "6" smd rect
 			(at -3.56 3.425 270)
@@ -877,7 +877,7 @@
 			(pinfunction "VSS")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
-			(uuid "06bfd6c5-db80-4db6-9605-9d0681b8c71c")
+			(uuid "2514ccb5-200f-46d2-9ea4-666d26bef787")
 		)
 		(pad "7" smd rect
 			(at -4.66 3.225 270)
@@ -887,7 +887,7 @@
 			(pinfunction "DAT0")
 			(pintype "bidirectional")
 			(solder_mask_margin 0.102)
-			(uuid "46e049db-e1c4-4994-8ed0-07fea41bd773")
+			(uuid "6303dd29-e257-4c5a-86ae-2f727bc61143")
 		)
 		(pad "8" smd rect
 			(at -5.76 3.225 270)
@@ -897,7 +897,7 @@
 			(pinfunction "DAT1")
 			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
-			(uuid "7ff2c9f9-e7c7-4ec1-a94d-3df8882cb404")
+			(uuid "6ef79430-7973-4068-a5e2-adc431db8571")
 		)
 		(pad "9" smd rect
 			(at -4.95 -7.325 270)
@@ -907,7 +907,7 @@
 			(pinfunction "DET_B")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "d4857861-19b5-4293-b26a-4d398274e610")
+			(uuid "01279cff-8b3e-47b0-b3c2-a784f99311a8")
 		)
 		(pad "10" smd rect
 			(at 0.75 -7.325 270)
@@ -917,7 +917,7 @@
 			(pinfunction "DET_A")
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0.102)
-			(uuid "1b5193a5-bc08-4467-89c0-052485822e50")
+			(uuid "ccbc0626-398c-40cc-939a-6455dac6982f")
 		)
 		(pad "11" smd rect
 			(at -6.55 5.825 270)
@@ -927,13 +927,13 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "8c3c8a21-3c01-4371-aa5f-954823834f8d")
+			(uuid "1a9a3ba6-dc57-4b37-b8df-ea8fa9f3ca86")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layer "F.Cu")
-			(uuid "d72ba98b-951c-444b-a367-c9c2cc6ab08d")
+			(uuid "092bd9d8-36fd-4611-b535-531dbe8de207")
 			(hatch full 0.508)
 			(connect_pads
 				(clearance 0)
@@ -957,7 +957,7 @@
 				)
 			)
 		)
-		(model "${KIPRJMOD}/external/STEP/MEM2061-01-188-00-A_REVA.step"
+		(model "${KIPRJMOD}/external/3dmodels/MEM2061-01-188-00-A.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3327,7 +3327,7 @@
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 2.33 360)
+			(at 0 2.33 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "48aa0a44-c5db-45da-a50d-a9b08551306c")
@@ -3340,7 +3340,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -20.11 360)
+			(at 0 -20.11 0)
 			(layer "B.Fab")
 			(uuid "dc0973c0-73c5-4acc-9d77-57e93be91d2f")
 			(effects
