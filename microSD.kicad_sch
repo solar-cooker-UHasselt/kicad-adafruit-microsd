@@ -3270,15 +3270,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "/"
-			(at 190.5 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "cb5e6258-820a-46d7-b502-e50807f58284")
 		)
@@ -3599,15 +3590,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "0805"
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "55be4a02-b573-4d27-8681-6e1beb52036c")
 		)
@@ -3705,15 +3687,6 @@
 			)
 		)
 		(property "SPN" "GPC0805106"
-			(at 95.25 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "0805"
 			(at 95.25 116.84 0)
 			(effects
 				(font
@@ -4158,15 +4131,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "0805"
-			(at 114.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "46de5031-8373-40fb-a82f-49685a340baa")
 		)
@@ -4262,15 +4226,6 @@
 			)
 		)
 		(property "SPN" "2073-MEM2061-01-188-00-ACT-ND"
-			(at 179.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "/"
 			(at 179.07 85.09 0)
 			(effects
 				(font
@@ -4542,15 +4497,6 @@
 				(hide yes)
 			)
 		)
-		(property "Component package type" "SOT-23-5"
-			(at 143.51 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "47614be4-2ce6-43c6-8af3-a25c8b917415")
 		)
@@ -4655,15 +4601,6 @@
 			)
 		)
 		(property "SPN" "74HC4050DCT-ND"
-			(at 93.98 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "16-SOIC"
 			(at 93.98 95.25 0)
 			(effects
 				(font
@@ -4811,15 +4748,6 @@
 			)
 		)
 		(property "SPN" "GPR08051K"
-			(at 144.78 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Component package type" "R_0805"
 			(at 144.78 77.47 90)
 			(effects
 				(font
